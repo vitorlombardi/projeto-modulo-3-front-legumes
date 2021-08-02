@@ -12,38 +12,38 @@ export default class Promocao extends React.Component {
       legumes: [
         {
           id: 1,
-          nome: "Espinafre",
-          url: "https://static.tuasaude.com/media/article/ad/da/beneficios-do-espinafre_18895_l.jpg",
+          nome: "Melancia",
+          url: "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/01/09/melancia-1.jpg",
         },
 
         {
           id: 2,
-          nome: "Batata",
-          url: "http://www.cabanamontefusco.com.br/wp-content/uploads/2019/04/Surpreenda-se-com-curiosidades-sobre-a-batata-Cabana-Montefuscoe.jpg",
+          nome: "beringela",
+          url: "https://www.cozinhatecnica.com/wp-content/uploads/2019/01/berinjela-tipos-de-berinjela.jpg",
         },
 
         {
           id: 3,
-          nome: "Rúcula",
-          url: "https://s3.static.brasilescola.uol.com.br/be/2021/02/rucula.jpg",
+          nome: "Jabuticaba",
+          url: "https://revista.abrale.org.br/wp-content/uploads/2017/05/imagem-jabuticaba.jpg",
         },
 
         {
           id: 4,
-          nome: "Brócolis",
-          url: "https://conteudo.imguol.com.br/c/entretenimento/53/2020/05/04/brocolis-1588626077191_v2_450x337.jpg.webp",
+          nome: "laranja",
+          url: "https://www.remedio-caseiro.com/wp-content/uploads/2014/02/20190923-laranjas.jpg",
         },
 
         {
           id: 5,
-          nome: "Abobrinha",
-          url: "https://conteudo.imguol.com.br/c/entretenimento/5c/2019/04/25/abobrinha-1556223714538_v2_450x337.jpg.webp",
+          nome: "pimentão",
+          url: "https://superbeal.com.br/img/news/pimentao_5bec1934cb264.jpg",
         },
 
         {
           id: 6,
-          nome: "Chuchu",
-          url: "https://gooutside-static-cdn.akamaized.net/wp-content/uploads/sites/6/2019/04/beneficios-do-chuchu-656x420.jpg",
+          nome: "beterraba",
+          url: "https://img-21.ccm2.net/8Kr5HtvOOZW1Ayd1UqfBxRG9Cbc=/440x/8742266e8944487db9b242f2d75e57c6/ccm-faq/1404951.jpg",
         },
       ],
     };
