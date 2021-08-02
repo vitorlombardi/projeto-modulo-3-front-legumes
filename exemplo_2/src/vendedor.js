@@ -7,7 +7,7 @@ const Vendedor = () => {
         <p><b>Nota de usuarios:</b> 8</p>
         <p><b>Reclamaçôes no ultimo mês:</b> 2</p>
         <p><b>Vendas no ultimo mês:</b> 20</p>
-        <a href="https://www.linkedin.com/in/gustavo-molina-a2798418/" className="link" target="_blank">ver mais sobre o Gustavo</a>
+        <a href="https://www.linkedin.com/in/gustavo-molina-a2798418/" className="link" target="_blank" rel="noreferrer">ver mais sobre o Gustavo</a>
       </div>
     );
   };

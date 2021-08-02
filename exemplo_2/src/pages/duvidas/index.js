@@ -29,7 +29,7 @@ const Parceiros = () =>{
                     <h3>R: hummm... talvez ligar para a polícia</h3>
                     <br/>
                     <h2>-Oque devo fazer se o produto não chegar no prazo ?</h2>
-                    <h3>R:Entre em contato com o vendedor ou faça uma reclamação <a href="https://www.reclameaqui.com.br" className="link" target="_blank">aqui</a></h3>
+                    <h3>R:Entre em contato com o vendedor ou faça uma reclamação <a href="https://www.reclameaqui.com.br" className="link" target="_blank" rel="noreferrer" >aqui</a></h3>
                     <br/>
                 </div>
                 <Link to="/" className="link" target="_blank">Pagina inicial</Link>
