@@ -1,0 +1,180 @@
+
+.titulo{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header{
+  background-color: turquoise;
+}
+
+.bloco{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.bloco_perguntas{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloco p{
+
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.bloco_opcs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bloco_opc{
+
+  color: black;
+  font-size: 20px;
+  
+
+}
+.bloco_opc img{
+
+  width: 100%;
+  
+
+}
+
+.dados{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+}
+
+.vendedor{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 180%;
+  width: 20%;
+  box-shadow: 2px 2px black, -1em 0 0.4em rgb(41, 40, 40);
+}
+
+.vendedor img{
+  max-width: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.corpo{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 60%;
+  box-shadow: 2px 2px black, -1em 0 0.4em rgb(41, 40, 40);
+}
+
+.parceiros img{
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.saiba_mais{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.corpo img{
+  border: 1px solid black;
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+
+.bloco_redireciona{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+.bloco_redireciona img{
+  margin-top: 100px;
+  border:1px solid black;
+  border-radius: 10px;
+
+}
+
+.img_legume img{
+  max-width:300px ;
+}
+.img_legume img:hover{
+  zoom: 110%;
+  filter: blur(1px);
+}
+
+.img_fruta img{
+  width: 300px;
+  height: 200px;
+}
+
+.img_fruta img:hover{
+  zoom: 110%;
+  filter: blur(1px);
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+}
+
+.link:hover{
+  text-decoration: blue;
+  color: blue;
+}
+
+.button{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao{
+  border-radius: 8px;
+}
+
+.botao:hover{
+  background-color: greenyellow;
+  box-shadow: 2px 2px black
+}
+
+
