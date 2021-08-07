@@ -140,7 +140,6 @@ export default class Legumes extends React.Component {
                     });
                   }}
                 />
-                <br />
                 <input
                   placeholder="Url da Imagem"
                   value={imagem_legume}
