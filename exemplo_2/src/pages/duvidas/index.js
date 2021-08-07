@@ -2,7 +2,7 @@ import Header from "../../header"
 import { Link } from 'react-router-dom';
 
 
-const Parceiros = () =>{
+const Duvidas = () =>{
 
     return (
         <>
@@ -41,4 +41,4 @@ const Parceiros = () =>{
 
 };
 
-export default Parceiros; 
+export default Duvidas; 
