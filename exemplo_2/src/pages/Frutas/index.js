@@ -140,7 +140,6 @@ export default class Frutas extends React.Component {
                     });
                   }}
                 />
-                <br />
                 <input
                   placeholder="Url da Imagem"
                   value={imagem_fruta}

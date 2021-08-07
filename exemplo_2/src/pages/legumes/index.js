@@ -130,7 +130,7 @@ export default class Legumes extends React.Component {
                   ? `Editando:${legumes[index_editando].nome}`
                   : "cadastre um novo legume"}
               </h2>
-              <form onSubmit={this.onSubmit}>
+              <form onSubmit={this.onSubmit} className="form">
                 <input
                   placeholder="Nome"
                   value={nome_legme}
