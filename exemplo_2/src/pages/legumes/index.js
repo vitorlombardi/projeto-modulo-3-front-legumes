@@ -14,49 +14,57 @@ export default class Legumes extends React.Component {
           id: 1,
           nome: "Espinafre",
           url: "https://static.tuasaude.com/media/article/ad/da/beneficios-do-espinafre_18895_l.jpg",
+          valor:"R$8,00"
         },
 
         {
           id: 2,
           nome: "Batata",
           url: "http://www.cabanamontefusco.com.br/wp-content/uploads/2019/04/Surpreenda-se-com-curiosidades-sobre-a-batata-Cabana-Montefuscoe.jpg",
+          valor:"R$2,50"
         },
 
         {
           id: 3,
           nome: "Rúcula",
           url: "https://s3.static.brasilescola.uol.com.br/be/2021/02/rucula.jpg",
+          valor:"R$2,80"
         },
 
         {
           id: 4,
           nome: "Brócolis",
           url: "https://conteudo.imguol.com.br/c/entretenimento/53/2020/05/04/brocolis-1588626077191_v2_450x337.jpg.webp",
+          valor:"R$8,50"
         },
 
         {
           id: 5,
           nome: "Abobrinha",
           url: "https://conteudo.imguol.com.br/c/entretenimento/5c/2019/04/25/abobrinha-1556223714538_v2_450x337.jpg.webp",
+          valor:"R$5,00"
         },
 
         {
           id: 6,
           nome: "Chuchu",
-          url: "https://gooutside-static-cdn.akamaized.net/wp-content/uploads/sites/6/2019/04/beneficios-do-chuchu-656x420.jpg",
+          url: "https://www.saborbrasil.it/wp-content/uploads/2021/06/Chuchu-1.jpg",
+          valor:"R$2,00"
         },
       ],
       nome_legme: "",
       imagem_legume: "",
+      valor_legume:"",
       editando: false,
       index_editando: null,
+      
     };
   }
 
   onSubmit = (e) => {
     e.preventDefault();
 
-    const { legumes, editando, index_editando, nome_legme, imagem_legume } =
+    const { legumes, editando, index_editando, nome_legme, imagem_legume, valor_legume } =
       this.state;
 
     if (editando) {
@@ -64,6 +72,7 @@ export default class Legumes extends React.Component {
         if (index_editando === index) {
           l.nome = nome_legme;
           l.url = imagem_legume;
+          l.valor = valor_legume;
         }
 
         return l;
@@ -81,6 +90,7 @@ export default class Legumes extends React.Component {
           {
             nome: nome_legme,
             url: imagem_legume,
+            valor: valor_legume,
           },
         ],
       });
@@ -89,6 +99,7 @@ export default class Legumes extends React.Component {
     this.setState({
       nome_legme: "",
       imagem_legume: "",
+      valor_legume: "",
     });
   };
 
@@ -100,7 +111,7 @@ export default class Legumes extends React.Component {
   };
 
   render() {
-    const { legumes, nome_legme, imagem_legume, editando, index_editando } =
+    const { legumes, nome_legme, imagem_legume, editando, index_editando, valor_legume } =
       this.state;
     return (
       <div className="conteiner">
@@ -139,6 +150,16 @@ export default class Legumes extends React.Component {
                     });
                   }}
                 />
+                <input
+                  type="number"
+                  placeholder="Valor"
+                  value={valor_legume}
+                  onChange={(e) => {
+                    this.setState({
+                      valor_legume: e.target.value,
+                    });
+                  }}
+                />
                 <br />
                 <button className="botao" type="submit">Salvar</button>
               </form>
@@ -154,6 +175,7 @@ export default class Legumes extends React.Component {
                   <li key={l.id}>
                     <h3>{l.nome}</h3>
                     <img src={l.url} alt={l.nome} />
+                    <p><b>valor: {l.valor}</b></p>
                     <br />
                     <div className="button">
                       <button className="botao" onClick={() => this.deletar(index)}>Comprar</button>

@@ -95,6 +95,10 @@
   box-shadow: 2px 2px black, -1em 0 0.4em rgb(41, 40, 40);
 }
 
+.corpo p{
+  
+  text-align: center;
+}
 .parceiros img{
   max-width: 300px;
   max-height: 200px;
