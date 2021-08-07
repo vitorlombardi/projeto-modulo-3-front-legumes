@@ -119,6 +119,13 @@
   border-radius: 10px;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  border-radius: 8px;
+}
+
 
 .bloco_redireciona{
   display: flex;
