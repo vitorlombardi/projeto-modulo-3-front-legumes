@@ -88,7 +88,7 @@ export default class Frutas extends React.Component {
           {
             nome: nome_fruta,
             url: imagem_fruta,
-            valor: valor_fruta
+            valor: valor_fruta,
           },
         ],
       });
